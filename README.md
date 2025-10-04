@@ -28,3 +28,14 @@ Added
 * **langchain-groq**
 * **groq**
 * **sentence-transformers**
+
+## Module 1
+
+### Video 1: Tracing Basics
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/tracing_basics.ipynb]()
+
+Learnt how **@traceable** decorator works and how it makes it simple to log traces. It makes it easier to add metadata. The step-by-step breakdown makes debugging easier and adding metadata makes filtering and grouping simpler. 
+
+* Made a simple **chat_bot()** to ask questions.
+* Added **metadata** to ask questions related to chess
