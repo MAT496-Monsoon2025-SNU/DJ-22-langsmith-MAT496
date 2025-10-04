@@ -99,3 +99,13 @@ Learnt that **datasets** are a mainly a list of **examples** used to evaluate th
 Changes:
 
 * Made a **new dataset** based on FC Barcelona's historical 2009 Sextuple run
+
+### Video 2: Evaluators
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/evaluators.ipynb]()
+
+Learnt that **evaluators** calculate metrics to score and quantify the llm on specific test cases. 
+
+Changes:
+
+* Made the **evaluator** score the **model** based on questions regarding chess, score ranging from 1-5. 1 being the lowest and 5 being the highest.
