@@ -87,3 +87,15 @@ Learnt how to create and execute tasks in a their own threads. By passing **uuid
 Changes:
 
 * Made my earlier **chat_bot** from **tracing_basics.ipynb** to trace all the prompts provided by the user by creating a new **uuid** whenever chatbot is called. It tracks all the traces related to any particular conversation between the user and the llm.
+
+## Module 2
+
+### Video 1: Datasets
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/dataset_upload.ipynb]()
+
+Learnt that **datasets** are a mainly a list of **examples** used to evaluate the llm application. **Tagging** a particular version of a dataset helps in testing our llm application as we can go back and see what changed between particular tags.
+
+Changes:
+
+* Made a **new dataset** based on FC Barcelona's historical 2009 Sextuple run
