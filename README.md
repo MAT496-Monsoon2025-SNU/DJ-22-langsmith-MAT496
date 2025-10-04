@@ -114,9 +114,9 @@ Changes:
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/experiments.ipynb]()
 
-Learnt that experiments are custom evaluators for performance of the llm application on a dataset. Also analyzed the significance of changing the model for evaluator. I am also facing some dimentionality issue which I wasn't able to figure out how to fix, I will look into it in my own time.
+Learnt that **experiments** are custom evaluators for performance of the llm application on a **dataset**. Also analyzed the significance of **changing** the **model** for evaluator. I am also facing some **dimentionality issue** which I wasn't able to figure out how to fix, I will look into it in my own time.
 
 Changes:
 
-* Made my own dataset based on FC Barcelona's historical 2009 Sextuple run
-* Made evaluators to see how they score different responses based on several metrics
+* Made my own **dataset** based on FC Barcelona's historical 2009 Sextuple run
+* Made **evaluators** to see how they **score** different responses based on several metrics
