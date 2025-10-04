@@ -104,7 +104,7 @@ Changes:
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/evaluators.ipynb]()
 
-Learnt that **evaluators** calculate metrics to score and quantify the llm on specific test cases. 
+Learnt that **evaluators** calculate metrics to score and quantify the llm on specific test cases.
 
 Changes:
 
@@ -114,9 +114,13 @@ Changes:
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/experiments.ipynb]()
 
-Learnt that **experiments** are custom evaluators for performance of the llm application on a **dataset**. Also analyzed the significance of **changing** the **model** for evaluator. I am also facing some **dimentionality issue** which I wasn't able to figure out how to fix, I will look into it in my own time.
+Learnt that **experiments** are custom evaluators for performance of the llm application on a **dataset**. Also analyzed the significance of **changing** the **model** for evaluator.
 
 Changes:
 
 * Made my own **dataset** based on FC Barcelona's historical 2009 Sextuple run
 * Made **evaluators** to see how they **score** different responses based on several metrics
+
+### Video 4: Analyzing Experiment Results
+
+Learnt about how experiments are useful for noticing the general trends in the llm application performance. It allows us to deep dive into individual experiment runs and trace how each dataset performed.
