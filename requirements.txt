@@ -5,9 +5,12 @@ langsmith>=0.2.0
 langchain-community
 langchain-core
 langchain-openai
+langchain-groq
 notebook
 python-dotenv
 lxml
 scikit-learn
 pandas
 pyarrow
+groq
+sentence-transformers
