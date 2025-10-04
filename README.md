@@ -124,3 +124,5 @@ Changes:
 ### Video 4: Analyzing Experiment Results
 
 Learnt about how experiments are useful for noticing the general trends in the llm application performance. It allows us to deep dive into individual experiment runs and trace how each dataset performed.
+
+![1759599972025](image/README/1759599972025.png)
