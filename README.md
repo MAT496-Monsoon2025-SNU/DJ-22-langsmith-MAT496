@@ -39,7 +39,7 @@ Changes:
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/tracing_basics.ipynb]()
 
-Learnt how **@traceable** decorator works and how it makes it simple to log traces. It makes it easier to add metadata. The step-by-step breakdown makes debugging easier and adding metadata makes filtering and grouping simpler. 
+Learnt how **@traceable** decorator works and how it makes it simple to log traces. It makes it easier to add metadata. The step-by-step breakdown makes debugging easier and adding metadata makes filtering and grouping simpler.
 
 Changes:
 
@@ -82,8 +82,8 @@ Changes:
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/conversational_threads.ipynb]()
 
-Learnt how to create and execute tasks in a their own threads. By passing uuid as a pair value in the metadata using langchain_extra field, we can create threads.
+Learnt how to create and execute tasks in a their own threads. By passing **uuid** as a pair value in the metadata using **langchain_extra** field, we can create threads.
 
 Changes:
 
-* Made my earlier chat_bot from tracing_basics.ipynb to trace all the prompts provided by the user by creating a new uuid whenever chatbot is called. It tracks all the traces related to any particular conversation between the user and the llm.
+* Made my earlier **chat_bot** from **tracing_basics.ipynb** to trace all the prompts provided by the user by creating a new **uuid** whenever chatbot is called. It tracks all the traces related to any particular conversation between the user and the llm.
