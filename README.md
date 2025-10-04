@@ -67,3 +67,13 @@ Changes:
 * Made **retrieve_docs** into a retreiver for available drinks in a bar
 * Made the **ask_about_the_weather** consult Reynold Wolf for the temperature
 * Made a **new model** that decides chess strategems in medieval theme
+
+### Video 3: Alternative Ways to Trace
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb]()
+
+Learnt alternative ways to trace function call in LangSmith. **wrap_openai()** uses **OpenAI SDK** directly to trace all openai calls, so any calls made to it will automatically be traced to LangSmith.
+
+Changes:
+
+* Made my earlier **chat_bot** from **tracing_basics.ipynb** using **wrap_openai()**
