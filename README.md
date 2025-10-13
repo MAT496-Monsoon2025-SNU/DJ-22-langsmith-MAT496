@@ -126,3 +126,16 @@ Changes:
 Learnt about how experiments are useful for noticing the general trends in the llm application performance. It allows us to deep dive into individual experiment runs and trace how each dataset performed.
 
 ![Alt text](./images/Video4_Module1.png)
+
+## Module 3
+
+### Video 1: Playground
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/playground_experiments.ipynb]()
+
+Learnt using **create_dataset()** for creating a **dataset** and using **create_examples()** to **examples** directly from code instead of going to **LangSmith UI**.
+
+Changes:
+
+* Made my own **dataset** based on basic questions related toe chess
+* Compared **OpenAI gpt-3.5-turbo** and **OpenAI gpt-4o-mini** on the dataset and sample input/output in the dataset
