@@ -133,9 +133,20 @@ Learnt about how experiments are useful for noticing the general trends in the l
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/playground_experiments.ipynb]()
 
-Learnt using **create_dataset()** for creating a **dataset** and using **create_examples()** to **examples** directly from code instead of going to **LangSmith UI**.
+Learnt using **create_dataset()** for creating a **dataset** and using **create_examples()** to create **examples** directly from code instead of going to **LangSmith UI**.
 
 Changes:
 
 * Made my own **dataset** based on basic questions related toe chess
 * Compared **OpenAI gpt-3.5-turbo** and **OpenAI gpt-4o-mini** on the dataset and sample input/output in the dataset
+
+### Video 2: Prompt Hub
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/prompt_hub.ipynb]()
+
+Learnt to use **pull_prompt()** to fetch existing prompts from **LangSmith hub**. Used **.invoke** to fill the prompt variables with values to call the prompt accurately. Learnt to use **.push_prompt()** to upload a new prompt directly from the code instead of using **LangSmith UI**.
+
+Changes:
+
+* Made a **prompt** in **LangSmith UI** which puts the LLM in the shoes of a football club supporter, the club specified by the user
+* Created a **prompt** in **.ipynb** which makes the LLM into a world class chef who is a master of a cuisine, with some number of michelin stars and has to make a dish using some main ingridient. All of the variables will be put in by the user
