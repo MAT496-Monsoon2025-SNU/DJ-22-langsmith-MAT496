@@ -161,3 +161,20 @@ Changes:
 
 * Made a **dataset** about basic questions related to bartending and how to make some common cocktails
 * Changed the **RAG** setup from single question to support **multiple questions** at a time
+
+### Video 4: Prompt Canvas
+
+Learnt how to use **Prompt Canvas** and creating **Custom Actions** so that if multiple users are working on the same prompt; it makes working together easier.
+
+Changes:
+
+* Created a custom **prompt** related to Magnus Carlsen
+* Created a **Custom Action** related to stockfish
+
+![1760377047738](images/Video4_Module3_1.png)
+
+![1760377123299](images/Video4_Module3_2.png)
+
+![1760377234086](images/Video4_Module3_3.png)
+
+![1760377367970](images/Video4_Module3_4.png)
