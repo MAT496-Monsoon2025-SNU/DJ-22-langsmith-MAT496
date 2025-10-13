@@ -150,3 +150,14 @@ Changes:
 
 * Made a **prompt** in **LangSmith UI** which puts the LLM in the shoes of a football club supporter, the club specified by the user
 * Created a **prompt** in **.ipynb** which makes the LLM into a world class chef who is a master of a cuisine, with some number of michelin stars and has to make a dish using some main ingridient. All of the variables will be put in by the user
+
+### Video 3: Prompt Engineering Lifecycle
+
+[https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/prompt_engineering_lifecycle.ipynb]()
+
+Learnt how to use **RAG** using **LangSmith tracing**, creating datasets and **prompt engineering**.
+
+Changes:
+
+* Made a **dataset** about basic questions related to bartending and how to make some common cocktails
+* Changed the **RAG** setup from single question to support **multiple questions** at a time
