@@ -1,6 +1,14 @@
 # Intro to Langsmith
 
+---
+
+
+
 ## Module 0
+
+---
+
+
 
 The code was written in accordance with OpenAI libraries and commands in python. I have changed everything to work with groq, the model provider that i am familiar with already.
 
@@ -35,6 +43,10 @@ Changes:
 
 ## Module 1
 
+---
+
+
+
 ### Video 1: Tracing Basics
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/tracing_basics.ipynb]()
@@ -45,6 +57,10 @@ Changes:
 
 * Made a simple **chat_bot()** to ask questions.
 * Added **metadata** to ask questions related to chess
+
+---
+
+
 
 ### Video 2: Types of Runs
 
@@ -68,6 +84,10 @@ Changes:
 * Made the **ask_about_the_weather** consult Reynold Wolf for the temperature
 * Made a **new model** that decides chess strategems in medieval theme
 
+---
+
+
+
 ### Video 3: Alternative Ways to Trace
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb]()
@@ -77,6 +97,10 @@ Learnt alternative ways to trace function call in LangSmith. **wrap_openai()** u
 Changes:
 
 * Made my earlier **chat_bot** from **tracing_basics.ipynb** using **wrap_openai()**
+
+---
+
+
 
 ### Video 4: Conversational Threads
 
@@ -88,7 +112,15 @@ Changes:
 
 * Made my earlier **chat_bot** from **tracing_basics.ipynb** to trace all the prompts provided by the user by creating a new **uuid** whenever chatbot is called. It tracks all the traces related to any particular conversation between the user and the llm.
 
+---
+
+
+
 ## Module 2
+
+---
+
+
 
 ### Video 1: Datasets
 
@@ -100,6 +132,10 @@ Changes:
 
 * Made a **new dataset** based on FC Barcelona's historical 2009 Sextuple run
 
+---
+
+
+
 ### Video 2: Evaluators
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_2/evaluators.ipynb]()
@@ -108,7 +144,11 @@ Learnt that **evaluators** calculate metrics to score and quantify the llm on sp
 
 Changes:
 
-* Made the **evaluator** score the **model** based on questions regarding chess, score ranging from 1-5. 1 being the lowest and 5 being the highest.
+* Made the **evaluator** score the **model** based on questions regarding chess, score ranging from 1-5. 1 being the lowest and 5 being the highest
+
+---
+
+
 
 ### Video 3: Experiments
 
@@ -121,13 +161,25 @@ Changes:
 * Made my own **dataset** based on FC Barcelona's historical 2009 Sextuple run
 * Made **evaluators** to see how they **score** different responses based on several metrics
 
+---
+
+
+
 ### Video 4: Analyzing Experiment Results
 
 Learnt about how experiments are useful for noticing the general trends in the llm application performance. It allows us to deep dive into individual experiment runs and trace how each dataset performed.
 
 ![Alt text](./images/Video4_Module1.png)
 
+---
+
+
+
 ## Module 3
+
+---
+
+
 
 ### Video 1: Playground
 
@@ -140,6 +192,10 @@ Changes:
 * Made my own **dataset** based on basic questions related toe chess
 * Compared **OpenAI gpt-3.5-turbo** and **OpenAI gpt-4o-mini** on the dataset and sample input/output in the dataset
 
+---
+
+
+
 ### Video 2: Prompt Hub
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/prompt_hub.ipynb]()
@@ -151,6 +207,10 @@ Changes:
 * Made a **prompt** in **LangSmith UI** which puts the LLM in the shoes of a football club supporter, the club specified by the user
 * Created a **prompt** in **.ipynb** which makes the LLM into a world class chef who is a master of a cuisine, with some number of michelin stars and has to make a dish using some main ingridient. All of the variables will be put in by the user
 
+---
+
+
+
 ### Video 3: Prompt Engineering Lifecycle
 
 [https://github.com/MAT496-Monsoon2025-SNU/DJ-22-langsmith-MAT496/blob/main/notebooks/module_3/prompt_engineering_lifecycle.ipynb]()
@@ -161,6 +221,10 @@ Changes:
 
 * Made a **dataset** about basic questions related to bartending and how to make some common cocktails
 * Changed the **RAG** setup from single question to support **multiple questions** at a time
+
+---
+
+
 
 ### Video 4: Prompt Canvas
 
